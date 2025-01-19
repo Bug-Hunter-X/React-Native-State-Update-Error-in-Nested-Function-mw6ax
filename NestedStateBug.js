@@ -1,0 +1,1 @@
+This error occurs when you are using a state variable within a function that's not directly inside a functional component. This often happens when you try to access or modify a state variable from a nested function or callback. Because the nested function loses its scope, it cannot properly access and update the state.
